@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/coffee"
+    android:orientation="vertical">
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kdu"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAFE KDU"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:textColor="#FFF"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="40dp"
+            android:textColor="#FFFF"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:text="kdu.ac.lk" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffee"
+    android:orientation="vertical"
+    tools:context=".Contact">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:src="@drawable/ic_email_black_24dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:text="admin@cafe.com"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+
+                android:linksClickable="true"
+                android:autoLink="email"
+
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:src="@drawable/ic_local_phone_blue_24dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:text="+94718831559"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:linksClickable="true"
+                android:autoLink="phone"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:src="@drawable/ic_location_on_black_24dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:text="Manager,
+KDU Cafe,
+Kotelawala Defence University,
+Ratmalana"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="30dp"
+                android:layout_width="0dp"
+                android:src="@drawable/ic_access_time_black_24dp"
+                android:layout_height="100dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="5"
+                android:textSize="20dp"
+                android:text="7.30 AM TO 3.00 PM"
+                android:gravity="center_vertical"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>
